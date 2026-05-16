@@ -1,13 +1,7 @@
+# Runtime deps for Streamlit Cloud deployment.
+# Only what streamlit_app.py imports (reads precomputed CSV/JSON outputs).
+# For full pipeline retraining locally, see requirements-dev.txt.
 pandas==2.2.2
 numpy==1.26.4
-scikit-learn==1.5.0
-joblib==1.4.2
 plotly==5.22.0
-dash==2.17.1
-dash-bootstrap-components==1.6.0
-matplotlib==3.9.0
-seaborn==0.13.2
-fastapi==0.115.0
-uvicorn[standard]==0.30.6
-pydantic==2.9.0
 streamlit==1.39.0
