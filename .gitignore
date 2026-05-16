@@ -185,3 +185,6 @@ logs/
 # Duplicate raw inputs (canonical copies live in data/raw/)
 advanced_user_events_with_uuid (1).csv
 advanced_user_profiles_with_uuid (1).csv
+
+# Personal presentation notes (not for public repo)
+PRESENTATION_NOTES.md
