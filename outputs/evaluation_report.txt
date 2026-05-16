@@ -1,0 +1,33 @@
+=== Random Forest Classifier — 5-fold CV ===
+
+  accuracy: 0.6000
+   roc_auc: 0.6151
+        f1: 0.4872
+ precision: 0.5135
+    recall: 0.4634
+
+Classification report:
+
+              precision    recall  f1-score   support
+
+     regular       0.65      0.69      0.67        59
+  high_payer       0.51      0.46      0.49        41
+
+    accuracy                           0.60       100
+   macro avg       0.58      0.58      0.58       100
+weighted avg       0.59      0.60      0.60       100
+
+
+Top 10 feature importances:
+
+                  feature  importance  rank
+trial_extension_intensity    0.128496     1
+        n_trial_extension    0.072595     2
+       feature_click_rate    0.065879     3
+avg_events_per_active_day    0.058016     4
+               churn_risk    0.054292     5
+                 n_logout    0.053184     6
+       login_logout_ratio    0.052887     7
+              tenure_days    0.049204     8
+    recency_checkout_days    0.048202     9
+           last_event_day    0.044370    10

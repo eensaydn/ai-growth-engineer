@@ -1,0 +1,5 @@
+segment,n_users,avg_payment_likelihood,avg_churn_risk,avg_growth_potential,avg_n_payment_success,top_plan_type,top_country,top_industry
+Churn Risk,31,0.463,0.713,0.237,4.87,Free,France,Healthcare
+Growth Potential,23,0.466,0.382,0.489,5.52,Free,USA,SaaS
+High Value,16,0.719,0.455,0.185,7.75,Business,UK,Healthcare
+Medium Value,30,0.274,0.475,0.168,3.63,Pro,Germany,Healthcare

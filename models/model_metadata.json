@@ -1,0 +1,124 @@
+{
+  "classifier": {
+    "metrics_cv": {
+      "accuracy": 0.6,
+      "roc_auc": 0.6151302190988011,
+      "f1": 0.48717948717948717,
+      "precision": 0.5135135135135135,
+      "recall": 0.4634146341463415
+    },
+    "feature_names": [
+      "plan_ordinal",
+      "device_is_desktop",
+      "country_France",
+      "country_Germany",
+      "country_Turkey",
+      "country_UK",
+      "country_USA",
+      "industry_E-Commerce",
+      "industry_Education",
+      "industry_Healthcare",
+      "industry_SaaS",
+      "n_login",
+      "n_logout",
+      "n_checkout_start",
+      "n_trial_extension",
+      "n_feature_click",
+      "n_total_events",
+      "first_event_day",
+      "last_event_day",
+      "days_active",
+      "tenure_days",
+      "recency_checkout_days",
+      "events_last_7d",
+      "events_first_7d",
+      "activity_trend",
+      "feature_click_rate",
+      "login_logout_ratio",
+      "trial_extension_intensity",
+      "avg_events_per_active_day",
+      "churn_risk",
+      "growth_potential"
+    ],
+    "trained_at": "2026-05-16T14:50:41",
+    "hyperparameters": {
+      "n_estimators": 300,
+      "max_depth": 6,
+      "min_samples_leaf": 3,
+      "class_weight": "balanced",
+      "random_state": 42
+    }
+  },
+  "clusterer": {
+    "n_clusters": 4,
+    "feature_names": [
+      "n_login",
+      "n_checkout_start",
+      "n_payment_success",
+      "n_feature_click",
+      "n_trial_extension",
+      "activity_trend",
+      "last_event_day",
+      "checkout_to_payment_rate"
+    ],
+    "names": {
+      "0": "Engaged Payers",
+      "2": "At-Risk Users",
+      "1": "Active Explorers",
+      "3": "Disengaged Lite"
+    },
+    "cluster_sizes": {
+      "0": 13,
+      "1": 37,
+      "2": 34,
+      "3": 16
+    },
+    "silhouette_k4": 0.1732875480859131,
+    "centroids_original_space": [
+      {
+        "n_login": 4.538,
+        "n_checkout_start": 2.308,
+        "n_payment_success": 8.385,
+        "n_feature_click": 4.923,
+        "n_trial_extension": 5.077,
+        "activity_trend": -0.622,
+        "last_event_day": 7.144,
+        "checkout_to_payment_rate": 4.372,
+        "cluster_name": "Engaged Payers"
+      },
+      {
+        "n_login": 4.568,
+        "n_checkout_start": 3.676,
+        "n_payment_success": 3.649,
+        "n_feature_click": 4.595,
+        "n_trial_extension": 5.946,
+        "activity_trend": -0.989,
+        "last_event_day": 13.0,
+        "checkout_to_payment_rate": 1.075,
+        "cluster_name": "Active Explorers"
+      },
+      {
+        "n_login": 3.794,
+        "n_checkout_start": 6.176,
+        "n_payment_success": 5.882,
+        "n_feature_click": 4.735,
+        "n_trial_extension": 3.0,
+        "activity_trend": -0.977,
+        "last_event_day": 13.522,
+        "checkout_to_payment_rate": 1.009,
+        "cluster_name": "At-Risk Users"
+      },
+      {
+        "n_login": 5.5,
+        "n_checkout_start": 5.375,
+        "n_payment_success": 4.188,
+        "n_feature_click": 3.625,
+        "n_trial_extension": 4.5,
+        "activity_trend": -0.311,
+        "last_event_day": 2.599,
+        "checkout_to_payment_rate": 0.851,
+        "cluster_name": "Disengaged Lite"
+      }
+    ]
+  }
+}
